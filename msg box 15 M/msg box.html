@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="msg style.css">
+</head>
+<body>
+    <!-- Content of the page -->
+    <div class="content">
+        <h1>Main UI Content</h1>
+        <p>This is some sample content below the message box.</p>
+        <button onclick="showMessageBox()">Simulate Price Change</button>
+    </div>
+
+    <!-- Overlay and Message Box -->
+    <div class="overlay" id="overlay">
+        <div class="message-box">
+            <p>Price has changed, check whether you're satisfied with the change</p>
+            <button onclick="closeMessageBox()">OK</button>
+        </div>
+    </div>
+
+    <script src="msg script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Mart - Fresh Produce</title>
+    <link rel="stylesheet" href="homeupdated.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Field Mart Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Seller</a></li>
+                <li><a href="#">Buyer</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="auth-links">
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Fresh Produce, Anytime, Anywhere</h1>
+            <p>Find the best deals on farm-fresh goods & support local sellers.</p>
+            <div class="hero-buttons">
+                <!--/////////////////////////////*********** *********************************************//////////////////-->
+                <button onclick="scrollToProducts()">Shop Now</button>
+                <!--<button onclick="alert('Shop Now Clicked!')">Shop Now</button>-->
+                <button
+                    onclick="window.location.href='file:///C:/Users/User/Desktop/Codes/subscription/subscription.html'">Subscription
+                    Plans</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <main>
+        <h2 class="section-title">All Products</h2>
+        <div class="product-grid" id="product-grid">
+            <!-- Product Cards dynamically generated -->
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <p>Field Mart is your trusted marketplace for fresh and organic produce.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="file:///C:/Users/User/Desktop/Codes/seller%20page/sellerpage.html">Seller</a></li>
+                    <li><a href="#">Buyer</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p>Email: support@fieldmart.com</p>
+                <p>Phone: +94 123 456 789</p>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Field Mart. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="homeupdated.js"></script>
+</body>
+
+</html>
